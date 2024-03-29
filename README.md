@@ -44,6 +44,6 @@
    - `<script src = ""/>`: Without any attribute in the script tag, the HTML parsing goes on
    - `<script async src = ""/>` : In this case, the HTML parsing goes on. When script tag is encountered, it is **fetched from the network asynchronously parallel to HTML parsing**. Then HTML parsing is paused and the script is executed. **Once the script execution is complete, then HTML parsing resumes**.
    - `<script defer src = ""/>` : In this case, **the HTML parsing goes on and the scripts are fetched in parallel**. Then once the **HTML parsing is complete, then the scripts are executed**. It does not matter when the scripts are available in the browser.
-   
+   https://private-user-images.githubusercontent.com/54809528/253335374-97b1f413-1134-48de-9a54-3d7cda4f6af3.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTE3MTg1ODYsIm5iZiI6MTcxMTcxODI4NiwicGF0aCI6Ii81NDgwOTUyOC8yNTMzMzUzNzQtOTdiMWY0MTMtMTEzNC00OGRlLTlhNTQtM2Q3Y2RhNGY2YWYzLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAzMjklMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMzI5VDEzMTgwNlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWZhMjBhMjg0NzQ4MWE3ZDc4MDRmYTE4ODUzOTI0NGRiODMxYmZjNjRhYmNkMTU4Y2VjNzdlNjQ4NWYyOWNlZWYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.8gqsb_DgmMvYvi0JeTXoqHeZhcVwMt6Yqg0wsq_9kAk
 
 
